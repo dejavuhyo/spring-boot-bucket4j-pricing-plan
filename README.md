@@ -1,11 +1,15 @@
 # Spring Boot Bucket4j Pricing Plan
 
 ## 1. 설명
-Spring Boot Bucket4j 예제이다. 포트는 8080을 사용한다.
+Spring Boot Bucket4j Pricing Plan 예제이다. 포트는 8080을 사용한다.
 
-버킷의 크기는 3개이며 10초에 3개의 토큰을 충전한다.
+API 클라이언트 및 가격 계획이다.
 
-API 호출시 토큰 1개를 소비한다.
+* Free: 20 requests per hour per API client
+
+* Basic: 40 requests per hour per API client
+
+* Professional: 100 requests per hour per API client
 
 ## 2. 개발환경
 
