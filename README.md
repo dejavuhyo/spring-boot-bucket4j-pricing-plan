@@ -26,7 +26,7 @@ API 호출시 토큰 1개를 소비한다.
 
 ```shell
 ## successful request
-$ curl -v -X POST http://localhost:9001/api/v1/area/rectangle \
+$ curl -v -X POST http://localhost:8080/api/v1/area/rectangle \
     -H "Content-Type: application/json" -H "X-api-key:FX001-99999" \
     -d '{ "length": 10, "width": 12 }'
 
@@ -35,7 +35,7 @@ $ curl -v -X POST http://localhost:9001/api/v1/area/rectangle \
 {"shape":"rectangle","area":120.0}
 
 ## rejected request
-$ curl -v -X POST http://localhost:9001/api/v1/area/rectangle \
+$ curl -v -X POST http://localhost:8080/api/v1/area/rectangle \
     -H "Content-Type: application/json" -H "X-api-key:FX001-99999" \
     -d '{ "length": 10, "width": 12 }'
 
