@@ -1,7 +1,7 @@
-# Spring Boot Bucket4j Pricing Plan
+# Spring Bucket4j Pricing Plan
 
 ## 1. 설명
-Spring Boot Bucket4j Pricing Plan 예제이다. 포트는 8080을 사용한다.
+Spring Bucket4j Pricing Plan 예제이다. 포트는 8080을 사용한다.
 
 API 클라이언트 및 가격 계획이다.
 
