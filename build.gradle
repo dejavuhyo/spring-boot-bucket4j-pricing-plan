@@ -26,7 +26,11 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation group: 'com.bucket4j', name: 'bucket4j-core', version: '8.9.0'
+    implementation group: 'com.giffing.bucket4j.spring.boot.starter', name: 'bucket4j-spring-boot-starter', version: '0.11.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-cache', version: '3.2.3'
+    implementation group: 'javax.cache', name: 'cache-api', version: '1.1.1'
+    implementation group: 'com.github.ben-manes.caffeine', name: 'caffeine', version: '3.1.8'
+    implementation group: 'com.github.ben-manes.caffeine', name: 'jcache', version: '3.1.8'
 }
 
 tasks.named('test') {
