@@ -1,13 +1,13 @@
-package com.example.bucket4j;
+package com.example.bucket;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Bucket4jApplication {
+public class BucketApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Bucket4jApplication.class, args);
+        SpringApplication.run(BucketApplication.class, args);
     }
 
 }
